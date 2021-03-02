@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">ProyectoM07-IziMoto</string>
+    <string name="botonlogin">Login</string>
+    <string name="botonregistro">REGISTRARSE</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="infoapp">Informacion Izimoto</string>
+
+
+    <string name="dateFormat" translatable="false">EE, dd MMM</string>
+    <string name="timeFormat" translatable="false">EE, dd MMM HH:mm</string>
+    <string name="period" translatable="false">%1$s – %2$s</string>
+    <string name="infogeneral">Esta aplicación, llamada IziMoto, se dedica a dar servicio a una autoescuela para que sus alumno puedan realizar test teóricos de conducir tanto de coche, moto y camión.\n\n En la aplicación existen tres tipos de test: Por temas (Señalización, Factores humanos y Definiciones), Test oficiales de la DGT y exámenes con tiempo para hacer más realista la simulación del examen. También permite revisar tus últimos resultados de test, y solicitar fechas de examen.\n\n Aparte de lo anteriormente mencionado también se puede acceder a la aplicación como profesor el cual puede: Administrar alumno (Para poder ver su información, horarios de asistencia y una gráfica con sus progresos), Añadir fechas disponibles de exámenes (para que los alumno lo puedan solicitar) y Resultados de los alumno (Para poder indicar a un alumno cuando está listo para el examen).</string>
+    <string name="publicoObjetivo">La aplicación se define principalmente como educativa, ya que se trata de que las personas que utilizan la aplicación aprendan la teoría sobre el tránsito. Por ello, el sector donde creo que tendrá más éxito es el de los jóvenes/adultos de entre 18 y 40 años, que suelen ser las edades en que la gente se saca el carnet. Aunque como la aplicación es de tipo educativo lo podrían usar jóvenes de menor edad. \n \n También la aplicación va destinada a aquellas personas que quieren sacarse el carnet y no tenga tiempo de asistir a la autoescuela, por ello desde casa pueden realizar test hasta que estén preparados para hacer el examen, como existe la opción de solicitar fecha de examen desde la aplicación tampoco seria necesario ir presencialmente a la autoescuela para pedir fecha del examen.</string>
+    <string name="politica">Toda persona que acceda a esta app asume el papel de usuario, comprometiéndose a la observancia y cumplimiento riguroso de las disposiciones aquí dispuestas, así como a cualesquiera otra disposición legal que fuera de aplicación.\n\n IZIMOTO® se reserva el derecho a modificar cualquier tipo de información que pudiera aparecer en el sitio web, sin que exista obligación de preavisar o poner en conocimiento de los alumno dichas modificaciones, entendiéndose como suficiente la publicación de las mismas en el sitio web.</string>
+    <string name="seguro">Seguro?</string>
+    <string name="confirmaccion">Seguro?</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="nombre_alumno">Nombre alumno</string>
+    <string name="asunto">Asunto</string>
+    <string name="mensaje">Mensaje</string>
+    <string name="enviar_correo">Enviar Correo</string>
+    <string name="informaci_n_general">Información General</string>
+    <string name="p_blico_objetivo">Público Objetivo</string>
+    <string name="politica_de_privacidad">Politica de Privacidad</string>
+
+    <string name="permisoa1_a2_motocicleta">PermisoA1/A2 ( Motocicleta )</string>
+    <string name="permiso_c1_c_cami_n">Permiso C1/C ( Camión )</string>
+    <string name="permiso_b_tursimo">Permiso B ( Tursimo )</string>
+    <string name="administrar_n_usuarios">Administrar\n Alumnos</string>
+    <string name="resultados">Resultados</string>
+    <string name="habilitar_fecha">Habilitar Fecha</string>
+    <string name="salir">Salir</string>
+
+
+</resources>
+

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+
+        android:id="@+id/grupo">
+    <item
+        android:id="@+id/resultadosFragment"
+        android:icon="@drawable/resultado"
+        android:iconTint="@color/white"
+        android:title="Tus Resultados" />
+
+    </group>
+
+    <group
+
+        android:id="@+id/grupo2">
+    <item
+        android:id="@+id/fechaExamenFragment"
+        android:icon="@drawable/examen"
+        android:iconTint="@color/white"
+        android:title="Solicitar Fecha del Examen" />
+    </group>
+
+    <group
+
+        android:id="@+id/grupo3">
+    <item
+        android:id="@+id/infoAppFragment"
+        android:icon="@drawable/bombilla"
+        android:iconTint="@color/white"
+        android:title="Info de la App" />
+    </group>
+
+    
+    <group
+
+        android:id="@+id/grupo4">
+    <item
+        android:id="@+id/cerrarSesionFragment"
+        android:icon="@drawable/salir"
+        android:iconTint="@color/white"
+        android:title="Salir de la sesion" />
+
+    </group>
+
+
+</menu>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CampoTexto1">CampoTexto
+
+        <item name="colorControlNormal">#ffffff</item>
+        <item name="colorControlActivated">#39008e</item>
+        <item name="android:textColorHighlight">#E1BEE7</item>
+        <item name="android:gravity">center</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <attr name="backgroundColor" format="color"/>
+    <attr name="headerColor" format="color"/>
+    <attr name="headerTextColor" format="color"/>
+    <attr name="textColor" format="color"/>
+    <attr name="selectedColor" format="color"/>
+    <attr name="selectedTextColor" format="color"/>
+    <attr name="firstMonday" format="boolean"/>
+        <!-- Base application theme. -->
+        <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+            <!-- Customize your theme here. -->
+            <item name="colorPrimary">@color/white</item>
+            <item name="colorPrimaryDark">@color/white</item>
+            <item name="colorAccent">@color/white</item>
+        </style>
+
+        <style name="tituloPanel">
+            <item name="android:textSize">18sp</item>
+            <item name="android:layout_width">match_parent</item>
+            <item name="android:layout_height">50dp</item>
+            <item name="android:paddingTop">5dp</item>
+            <item name="android:paddingBottom">5dp</item>
+            <item name="android:textColor">@color/white</item>
+            <item name="android:gravity">center_horizontal</item>
+            <item name="android:background">#275070</item>
+
+
+
+        </style>
+
+        <style name="indicadorPanel">
+            <item name="android:layout_gravity">center_vertical|right</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:layout_marginLeft">16dp</item>
+            <item name="android:layout_width">wrap_content</item>
+
+        </style>
+
+        <style name="contenidoPanel">
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:layout_width">match_parent</item>
+            <item name="android:background">#0640D8</item>
+            <item name="textColor">@color/white</item>
+
+        </style>
+
+        <style name="contenidoTexto">
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:layout_width">match_parent</item>
+            <item name="android:paddingTop">20dp</item>
+            <item name="android:paddingBottom">20dp</item>
+            <item name="android:gravity">center_vertical</item>
+            <item name="android:textSize">17sp</item>
+            <item name="android:textColor">@color/white</item>
+
+        </style>
+
+        <style name="separador">
+            <item name="android:layout_width">match_parent</item>
+            <item name="android:layout_height">1dp</item>
+            <item name="android:background">#999999</item>
+
+        </style>
+
+
+</resources>
+

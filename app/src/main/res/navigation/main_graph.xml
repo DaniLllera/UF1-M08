@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/paginaPrincipalFragment">
+    <fragment
+        android:id="@+id/splashScreamFragment"
+        android:name="com.example.proyectom07_izimoto.SplashScreamFragment"
+        android:label="fragment_splash_scream"
+        tools:layout="@layout/fragment_splash_scream" >
+        <action
+            android:id="@+id/action_splashScreamFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.proyectom07_izimoto.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_registroFragment"
+            app:destination="@id/registroFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_paginaPrincipalFragment"
+            app:destination="@id/paginaPrincipalFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_paginaPrincipalProfessorFragment2"
+            app:destination="@id/paginaPrincipalProfessorFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_registroProfeFragment"
+            app:destination="@id/registroProfeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registroFragment"
+        android:name="com.example.proyectom07_izimoto.RegistroFragment"
+        android:label="fragment_registro"
+        tools:layout="@layout/fragment_registro" >
+        <action
+            android:id="@+id/action_registroFragment_to_paginaPrincipalFragment"
+            app:destination="@id/paginaPrincipalFragment" />
+        <action
+            android:id="@+id/action_registroFragment_to_paginaPrincipalProfessorFragment"
+            app:destination="@id/paginaPrincipalProfessorFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/paginaPrincipalFragment"
+        android:name="com.example.proyectom07_izimoto.PaginaPrincipalFragment"
+        android:label="Seleccione el Permiso"
+        tools:layout="@layout/fragment_pagina_principal" >
+        <action
+            android:id="@+id/action_paginaPrincipalFragment_to_permisoMotoFragment"
+            app:destination="@id/permisoMotoFragment" />
+        <action
+            android:id="@+id/action_paginaPrincipalFragment_to_permisoCamionFragment"
+            app:destination="@id/permisoCamionFragment" />
+        <action
+            android:id="@+id/action_paginaPrincipalFragment_to_permisoCocheFragment"
+            app:destination="@id/permisoCocheFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/permisoMotoFragment"
+        android:name="com.example.proyectom07_izimoto.PermisoMotoFragment"
+        android:label="Permiso A1/A2"
+        tools:layout="@layout/fragment_permiso_moto" >
+        <action
+            android:id="@+id/action_permisoMotoFragment_to_testTemasFragment"
+            app:destination="@id/testTemasFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cerrarSesionFragment"
+        android:name="com.example.proyectom07_izimoto.CerrarSesionFragment"
+        android:label="fragment_cerrar_sesion"
+        tools:layout="@layout/fragment_cerrar_sesion" >
+        <action
+            android:id="@+id/action_cerrarSesionFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/infoAppFragment"
+        android:name="com.example.proyectom07_izimoto.InfoAppFragment"
+        android:label="Información de la app"
+        tools:layout="@layout/fragment_info_app" />
+    <fragment
+        android:id="@+id/testTemasFragment"
+        android:name="com.example.proyectom07_izimoto.TestTemasFragment"
+        android:label="Test por temas Motos"
+        tools:layout="@layout/fragment_test_temas" >
+        <action
+            android:id="@+id/action_testTemasFragment_to_testSenalizacionFragment"
+            app:destination="@id/testSenalizacionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultadosFragment"
+        android:name="com.example.proyectom07_izimoto.ResultadosFragment"
+        android:label="Tus Resultados"
+        tools:layout="@layout/fragment_resultados" />
+    <fragment
+        android:id="@+id/fechaExamenFragment"
+        android:name="com.example.proyectom07_izimoto.FechaExamenFragment"
+        android:label="Fechas de Examen"
+        tools:layout="@layout/fragment_fecha_examen" >
+        <action
+            android:id="@+id/action_fechaExamenFragment_to_confirmarFechaFragment"
+            app:destination="@id/confirmarFechaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/testTemas2Fragment2"
+        android:name="com.example.proyectom07_izimoto.TestTemas2Fragment"
+        android:label="Test por temas Camión"
+        tools:layout="@layout/fragment_test_temas2" >
+        <action
+            android:id="@+id/action_testTemas2Fragment2_to_testSenalizacionFragment"
+            app:destination="@id/testSenalizacionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/permisoCamionFragment"
+        android:name="com.example.proyectom07_izimoto.PermisoCamionFragment"
+        android:label="Permiso C1/C"
+        tools:layout="@layout/fragment_permiso_camion" >
+        <action
+            android:id="@+id/action_permisoCamionFragment_to_testTemas2Fragment2"
+            app:destination="@id/testTemas2Fragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/permisoCocheFragment"
+        android:name="com.example.proyectom07_izimoto.PermisoCocheFragment"
+        android:label="Permiso B"
+        tools:layout="@layout/fragment_permiso_coche" >
+        <action
+            android:id="@+id/action_permisoCocheFragment_to_testTemas3Fragment"
+            app:destination="@id/testTemas3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/testTemas3Fragment"
+        android:name="com.example.proyectom07_izimoto.TestTemas3Fragment"
+        android:label="Test por temas Camión"
+        tools:layout="@layout/fragment_test_temas3" >
+        <action
+            android:id="@+id/action_testTemas3Fragment_to_testSenalizacionFragment"
+            app:destination="@id/testSenalizacionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/testSenalizacionFragment"
+        android:name="com.example.proyectom07_izimoto.TestSenalizacionFragment"
+        android:label="Señalización"
+        tools:layout="@layout/fragment_test_senalizacion" >
+        <action
+            android:id="@+id/action_testSenalizacionFragment_to_testOficialesDGTFragment"
+            app:destination="@id/testOficialesDGTFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/testOficialesDGTFragment"
+        android:name="com.example.proyectom07_izimoto.TestOficialesDGTFragment"
+        android:label="Oficiales DGT"
+        tools:layout="@layout/fragment_test_oficiales_d_g_t" >
+        <action
+            android:id="@+id/action_testOficialesDGTFragment_to_testOficialesDGTTiempoFragment"
+            app:destination="@id/testOficialesDGTTiempoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/testOficialesDGTTiempoFragment"
+        android:name="com.example.proyectom07_izimoto.TestOficialesDGTTiempoFragment"
+        android:label="Test Oficiales Con Tiempo"
+        tools:layout="@layout/fragment_test_oficiales_d_g_t_tiempo" >
+        <action
+            android:id="@+id/action_testOficialesDGTTiempoFragment_to_testPoliglotasFragment"
+            app:destination="@id/testPoliglotasFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/testPoliglotasFragment"
+        android:name="com.example.proyectom07_izimoto.TestPoliglotasFragment"
+        android:label="Test para Políglotas"
+        tools:layout="@layout/fragment_test_poliglotas" >
+        <action
+            android:id="@+id/action_testPoliglotasFragment_to_resultadosDelTestFragment"
+            app:destination="@id/resultadosDelTestFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultadosDelTestFragment"
+        android:name="com.example.proyectom07_izimoto.ResultadosDelTestFragment"
+        android:label="Resultados del Test"
+        tools:layout="@layout/fragment_resultados_del_test" >
+        <action
+            android:id="@+id/action_resultadosDelTestFragment_to_paginaPrincipalFragment"
+            app:destination="@id/paginaPrincipalFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/paginaPrincipalProfessorFragment"
+        android:name="com.example.proyectom07_izimoto.PaginaPrincipalProfessorFragment"
+        android:label="Panel de Control Professores"
+        tools:layout="@layout/fragment_pagina_principal_professor" >
+        <action
+            android:id="@+id/action_paginaPrincipalProfessorFragment_to_habilitarFechaExamenFragment"
+            app:destination="@id/habilitarFechaExamenFragment" />
+        <action
+            android:id="@+id/action_paginaPrincipalProfessorFragment_to_splashScreamFragment"
+            app:destination="@id/splashScreamFragment" />
+        <action
+            android:id="@+id/action_paginaPrincipalProfessorFragment_to_resultadosParaProfessorFragment"
+            app:destination="@id/resultadosParaProfessorFragment" />
+        <action
+            android:id="@+id/action_paginaPrincipalProfessorFragment_to_administrarUsuariosFragment"
+            app:destination="@id/administrarUsuariosFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/confirmarFechaFragment"
+        android:name="com.example.proyectom07_izimoto.ConfirmarFechaFragment"
+        android:label="fragment_confirmar_fecha"
+        tools:layout="@layout/fragment_confirmar_fecha" >
+        <action
+            android:id="@+id/action_confirmarFechaFragment_to_fechaExamenFragment"
+            app:destination="@id/fechaExamenFragment" />
+    </dialog>
+    <fragment
+        android:id="@+id/administrarUsuariosFragment"
+        android:name="com.example.proyectom07_izimoto.AdministrarUsuariosFragment"
+        android:label="Administrar Alumnos"
+        tools:layout="@layout/fragment_administrar_usuarios" >
+        <action
+            android:id="@+id/action_administrarUsuariosFragment_to_insertarUsuariosFragment"
+            app:destination="@id/insertarUsuariosFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registroProfeFragment"
+        android:name="com.example.proyectom07_izimoto.RegistroProfeFragment"
+        android:label="fragment_registro_profe"
+        tools:layout="@layout/fragment_registro_profe" >
+        <action
+            android:id="@+id/action_registroProfeFragment_to_paginaPrincipalProfessorFragment"
+            app:destination="@id/paginaPrincipalProfessorFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/habilitarFechaExamenFragment"
+        android:name="com.example.proyectom07_izimoto.HabilitarFechaExamenFragment"
+        android:label="Habilitar Fecha Examen"
+        tools:layout="@layout/fragment_habilitar_fecha_examen" >
+        <action
+            android:id="@+id/action_habilitarFechaExamenFragment_to_confirmarFechaFragment"
+            app:destination="@id/confirmarFechaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultadosParaProfessorFragment"
+        android:name="com.example.proyectom07_izimoto.ResultadosParaProfessorFragment"
+        android:label="Resultados de alumno"
+        tools:layout="@layout/fragment_resultados_para_professor" >
+        <action
+            android:id="@+id/action_resultadosParaProfessorFragment_to_enviarCorreoFragment"
+            app:destination="@id/enviarCorreoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/enviarCorreoFragment"
+        android:name="com.example.proyectom07_izimoto.EnviarCorreoFragment"
+        android:label="Envia un correo a tus Alumnos"
+        tools:layout="@layout/fragment_enviar_correo" >
+        <action
+            android:id="@+id/action_enviarCorreoFragment_to_paginaPrincipalProfessorFragment"
+            app:destination="@id/paginaPrincipalProfessorFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/insertarUsuariosFragment"
+        android:name="com.example.proyectom07_izimoto.InsertarUsuariosFragment"
+        android:label="Inserte al Alumno"
+        tools:layout="@layout/fragment_insertar_usuarios" >
+        <action
+            android:id="@+id/action_insertarUsuariosFragment_to_administrarUsuariosFragment2"
+            app:destination="@id/administrarUsuariosFragment" />
+    </fragment>
+
+</navigation>
